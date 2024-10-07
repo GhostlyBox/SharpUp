@@ -12,14 +12,23 @@ namespace SharpUp.Checks
         private static string[] _searchLocations =
                 {
                     String.Format("{0}\\sysprep\\sysprep.xml", _windir),
+                    String.Format("{0}\\sysprep\\sysprep.xml.vmimport", _windir),
                     String.Format("{0}\\sysprep\\sysprep.inf", _windir),
+                    String.Format("{0}\\sysprep\\sysprep.inf.vmimport", _windir),
                     String.Format("{0}\\sysprep.inf", _windir),
+                    String.Format("{0}\\sysprep.inf.vmimport", _windir),
                     String.Format("{0}\\Panther\\Unattended.xml", _windir),
+                    String.Format("{0}\\Panther\\Unattended.xml.vmimport", _windir),
                     String.Format("{0}\\Panther\\Unattend.xml", _windir),
+                    String.Format("{0}\\Panther\\Unattend.xml.vmimport", _windir),
                     String.Format("{0}\\Panther\\Unattend\\Unattend.xml", _windir),
+                    String.Format("{0}\\Panther\\Unattend\\Unattend.xml.vmimport", _windir),
                     String.Format("{0}\\Panther\\Unattend\\Unattended.xml", _windir),
+                    String.Format("{0}\\Panther\\Unattend\\Unattended.xml.vmimport", _windir),
                     String.Format("{0}\\System32\\Sysprep\\unattend.xml", _windir),
-                    String.Format("{0}\\System32\\Sysprep\\Panther\\unattend.xml", _windir)
+                    String.Format("{0}\\System32\\Sysprep\\unattend.xml.vmimport", _windir),
+                    String.Format("{0}\\System32\\Sysprep\\Panther\\unattend.xml", _windir),
+                    String.Format("{0}\\System32\\Sysprep\\Panther\\unattend.xml.vmimport", _windir)
                 };
         public UnattendedInstallFiles()
         {
